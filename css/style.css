@@ -132,9 +132,10 @@ body {
   margin-top: 1rem;
   line-height: 1.4rem;
   font-weight: 100;
-  color: #010101;
-  text-shadow: 3px 3px 3px #fff;
+  color: #fff;
+  text-shadow: 3px 3px 3px #010101;
   font-style: italic;
+  font-weight: bold;
 }
 
 .hero .content .cta {
@@ -178,11 +179,11 @@ body {
 }
 
 .about .row .about-img img {
-  width: 100%;
+  width: 90%;
 }
 
 .about .row .content {
-  flex: 1 1 25rem;
+  flex: 1 1 50rem;
   padding: 0 1rem;
   color: #808080;
 }
@@ -281,7 +282,7 @@ body {
   color: #fff;
 }
 
-.contact .row form .btn {
+.contact .row form .cta {
   margin-top: 3rem;
   display: inline-block;
   padding: 1rem 3rem;
@@ -353,9 +354,9 @@ footer .credit a {
   .navbar .navbar-nav {
     position: absolute;
     top: 100%;
-    right: -100%;
-    background-color: #fff;
-    width: 30rem;
+    right: -500%;
+    background-color: var(--transparent-color);
+    width: 20rem;
     height: 100vh;
     transition: 1s;
   }
