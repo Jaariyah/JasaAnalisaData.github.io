@@ -15,7 +15,7 @@
 
 body {
   font-family: "Popoins", sans-serif;
-  background-color: #eee);
+  background-color: #eee;
   color: #fff;
 }
 
@@ -132,8 +132,8 @@ body {
   margin-top: 1rem;
   line-height: 1.4rem;
   font-weight: 100;
-  color: #fff;
-  text-shadow: 3px 3px 3px #010101;
+  color: #010101;
+  text-shadow: 3px 3px 3px #fff;
   font-style: italic;
   font-weight: bold;
 }
@@ -153,7 +153,8 @@ body {
 .about,
 .menu,
 .contact {
-  padding: 7.5rem 7% 1.4rem;
+  /* min-height: 70vh; */
+  padding: 0.5rem 7% 1 rem;
   background-color: #fff;
 }
 
@@ -238,8 +239,8 @@ body {
 
 .menu .row .menu-card img {
   border-radius: 50%;
-  width: 75%;
-  margin-bottom: 1.5rem;
+  width: 50%;
+  margin-bottom: 1rem;
 }
 
 .menu .row .menu-card .menu-card-title {
